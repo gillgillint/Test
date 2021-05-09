@@ -1,0 +1,106 @@
+@{
+    ViewData["Title"] = "video";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - Oscar Peterson</title>
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" href="resources/CSS/style.css" />
+    <link rel="stylesheet" href="resources/CSS/queries.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+</head>
+<body>
+
+    <header class="hero-page">
+        <nav class="sticky">
+            <div class="row">
+                <ul class="main-nav">
+                   <li><a asp-area="" asp-controller="Home" asp-action="Index" >Home</a></li>
+                   <li><a asp-area="" asp-controller="Home" asp-action="Index" >News</a></li>
+                   <li><a asp-area="" asp-controller="Home" asp-action="Index" >Discography</a></li>
+                   <li><a asp-area="" asp-controller="Home" asp-action="Index" >tour dates</a></li>
+                   <li><a asp-area="" asp-controller="Home" asp-action="video" >video</a></li>
+                   <li><a asp-area="" asp-controller="Home" asp-action="about" >about</a></li>
+                   <li><a asp-area="" asp-controller="Home" asp-action="contact" >contact</a></li>
+                </ul>
+
+                <ul class="social-nav">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-youtube youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-spotify spotify"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+
+            <h1>Oscar Peterson</h1><br>
+            <h3>JAZZ PIANIST & COMPOSER</h3>
+
+
+        </div>
+    </header>
+    <section class="video">
+        <div class="row">
+            <div class="col span-2-of-2">
+                <h2 class="heading-page">Videos</h2>
+                <iframe width="1140" height="641" src="https://www.youtube.com/embed/NTJhHn-TuDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1140" height="641" src="https://www.youtube.com/embed/WRuY3_4BxhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1140" height="641" src="https://www.youtube.com/embed/XIs1vcoPQbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <div class="footer-left">
+                    <a href="#">
+                        <i class="fab fa-facebook-f facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-spotify spotify"></i>
+                    </a>
+                    <p class="copyright">2021 Oscar Peterson All right Reserved</p>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <a href="#" class="footer-right"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

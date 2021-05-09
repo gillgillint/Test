@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1200px){
+
+
+}
+@media only screen and (max-width: 1140px){
+
+    body {font-size: 18px;}
+    section {padding: 60px 0;}
+    .span-1-of-3{width: 66.13%;}
+    iframe{width: 950px; height: 420px;}
+   
+
+}
+@media only screen and (max-width: 915px){
+   .hero-text-box{font-size: 70%;}
+    .social-nav{display: none;}
+    iframe{width: 708px; height: 350px;}
+
+}
+@media only screen and (max-width: 738px){
+    .hero-text-box{font-size: 60%;}
+    .sticky{height: 120px;}
+    .left-contact{width: 66.13%; margin: 0 ;}
+    iframe{width: 480px; height: 250px;}
+
+}
+
+
+
